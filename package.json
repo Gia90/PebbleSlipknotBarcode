@@ -1,0 +1,43 @@
+{
+    "author": "Gia90",
+    "dependencies": {},
+    "keywords": [],
+    "name": "slipknot-bar",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "Slipknot Barcode",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9\\+ F]",
+                    "file": "fonts/FAKEPLASTIC.ttf",
+                    "name": "FONT_FAKEPLASTIC_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/background.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "d958d680-0ba6-4e7e-a751-7c5cb2047e43",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
