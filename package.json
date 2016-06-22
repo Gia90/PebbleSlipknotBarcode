@@ -1,24 +1,29 @@
 {
     "author": "Gia90",
-    "dependencies": {},
+    "dependencies": {
+        "pebble-clay": "^1.0.1"
+    },
     "keywords": [],
     "name": "slipknot-bar",
     "pebble": {
         "capabilities": [
+            "configurable",
             "health"
         ],
         "displayName": "Slipknot Barcode",
         "enableMultiJS": true,
-        "messageKeys": [],
+        "messageKeys": [
+            "INVERT",
+            "DATE_FORMAT"
+        ],
         "projectType": "native",
         "resources": {
             "media": [
                 {
-                    "characterRegex": "[0-9\\+ F]",
-                    "file": "fonts/FAKEPLASTIC.ttf",
-                    "name": "FONT_FAKEPLASTIC_36",
+                    "file": "images/backgroud_inverted.png",
+                    "name": "IMAGE_BACKGROUND_INVERTED",
                     "targetPlatforms": null,
-                    "type": "font"
+                    "type": "bitmap"
                 },
                 {
                     "file": "images/background.png",
@@ -26,6 +31,13 @@
                     "name": "IMAGE_BACKGROUND",
                     "targetPlatforms": null,
                     "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9\\+ F]",
+                    "file": "fonts/FAKEPLASTIC.ttf",
+                    "name": "FONT_FAKEPLASTIC_36",
+                    "targetPlatforms": null,
+                    "type": "font"
                 }
             ]
         },
@@ -39,5 +51,5 @@
             "watchface": true
         }
     },
-    "version": "1.0.0"
+    "version": "2.0.0"
 }
