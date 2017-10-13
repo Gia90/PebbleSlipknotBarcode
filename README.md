@@ -15,4 +15,4 @@ Lower right corner: battery
 This watchface is not affiliated with Slipknot, Inc. in any way.
 All trademarks, logos, images are copyrighted to their respective and rightful owners.
 
-Thanks to **[Jakob Fischer](www.pizzadude.dk)** for his awesome font!
+Thanks to **[Jakob Fischer](http://www.pizzadude.dk)** for his awesome font!
