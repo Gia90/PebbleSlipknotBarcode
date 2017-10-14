@@ -1,6 +1,6 @@
 # Pebble Slipknot Barcode Watchface
 Simple Slipknot Barcode Pebble Watchface, with time, date, battery and steps.
-[Pebble Store Link](https://apps.getpebble.com/applications/576429bb2946d7b5e30000ae)
+>[Pebble Store Link](https://apps.getpebble.com/applications/576429bb2946d7b5e30000ae)
 
 ![alt tag](https://raw.githubusercontent.com/Gia90/PebbleSlipknotBarcode/master/preview.png)
 
